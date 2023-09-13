@@ -15,7 +15,7 @@ docker compose up   # windows 使用 powershell ； mac 使用 terminal
 若是 Linux :
 
 ```shell
-docker-compose up  
+sudo docker-compose up  
 ```
 
 至任一瀏覽器 (e.g., Chrome, Edge) 輸入 [localhost:4000](http://localhost:4000) 即可前往 UAA
