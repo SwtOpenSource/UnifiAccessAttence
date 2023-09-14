@@ -8,5 +8,6 @@ services:
       - 8888:8888
   frontend:
       image: swtsystem/unifi_frontend
+      command: npm run dev
       ports:
         - 4000:4000
