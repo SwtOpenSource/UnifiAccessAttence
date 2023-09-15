@@ -6,11 +6,13 @@ Unifi Access 打卡紀錄後台系統 - UAA
 
  Mac 或 Windows下載 [Docker Desktop](https://www.docker.com/products/docker-desktop) ， 若是 Linux 下載 [Docker Engine](https://docs.docker.com/engine/install/)
 
+點擊綠色按鈕「Code」 後，選擇「 Download Zip 」即可下載
+
 在此目錄中啟用該服務 : 
 
 
 ```shell
-docker compose up   # windows 使用 powershell ； mac 使用 terminal
+docker compose up   # windows 使用 Powershell ； mac 使用 Terminal
 ```
 若是 Linux :
 
