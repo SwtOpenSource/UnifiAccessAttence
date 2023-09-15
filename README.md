@@ -25,8 +25,8 @@ sudo docker-compose up
 ## Use
 
 1. 第一次使用需設定 Unifi IP
-2. 於原系統建立Unifi access帳號
-3. 透過Unifi access帳號登入 UAA
+2. 於原系統建立 Unifi OS 帳號
+3. 透過 Unifi OS 帳號登入 UAA
 
 ## Notes
 
