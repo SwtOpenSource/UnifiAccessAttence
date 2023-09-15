@@ -8,16 +8,17 @@ Unifi Access 打卡紀錄後台系統 - UAA
 
 點擊綠色按鈕「Code」 後，選擇「 Download ZIP 」即可下載
 
-在此目錄中(/path/to/UnifiAccessAttendance-main)啟用該服務 : 
+在此目錄中啟用該服務 :
+
 
 
 ```shell
-docker compose up   # windows 使用 Powershell ； mac 使用 Terminal
+docker compose up   # /path/to/UnifiAccessAttendance-main  ;  Windows's Powershell or MAC's Terminal
 ```
 若是 Linux :
 
 ```shell
-sudo docker-compose up  
+sudo docker-compose up   # /path/to/UnifiAccessAttendance-main
 ```
 
 至任一瀏覽器 (e.g., Chrome, Edge) 輸入 [localhost:4000](http://localhost:4000) 即可前往 UAA
