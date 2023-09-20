@@ -1,13 +1,14 @@
-version: '3.6'   # Docker Engine release 18.02.0+
+version: '3.3'   # Docker Engine release 18.02.0+
 
 services:
   backend:
     image: swtsystem/unifi_backend
-    command: uvicorn main:app --host 0.0.0.0 --port 8888
+    container_name: unifi_access_be
     ports:
       - 8888:8888
+
   frontend:
-      image: swtsystem/unifi_frontend
-      command: npm run dev
-      ports:
-        - 4000:4000
+    image: swtsystem/unifi_frontend
+    container_name: unifi_access_fe
+    ports:
+      - 4000:4000
